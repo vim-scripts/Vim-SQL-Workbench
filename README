@@ -1,0 +1,20 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5081
+
+This is an implementation of SQL Workbench/J (http://www.sql-workbench.net/)
+in VIM. It works with any DBMS supported by SQL Workbench/J (PostgreSQL,
+Oracle, SQLite, MySQL, SQL Server etc.). See the complete list here: http://www.sql-workbench.net/databases.html. 
+
+You can connect to any DBMS directly from VIM.
+
+Features:
+
+* database explorer (e.g.: table lists, procedures list, views list, triggers
+  list), extensible (you can have your own objects list)
+* SQL buffer with performant autocomplete
+* export any sql statement as `text`, `sqlinsert`, `sqlupdate`,
+  `sqldeleteinsert`, `xml`, `ods`, `html`, `json`
+* search in object source
+* search in table or views data
+* fully customizable
+
+More details can be found here: https://github.com/cosminadrianpopescu/vim-sql-workbench
