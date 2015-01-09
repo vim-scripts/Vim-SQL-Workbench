@@ -10,7 +10,7 @@ Features:
 
 * database explorer (e.g.: table lists, procedures list, views list, triggers
   list), extensible (you can have your own objects list)
-* SQL buffer with performant autocomplete
+* SQL buffer with powerful intellisense autocomplete
 * export any sql statement as `text`, `sqlinsert`, `sqlupdate`,
   `sqldeleteinsert`, `xml`, `ods`, `html`, `json`
 * search in object source
