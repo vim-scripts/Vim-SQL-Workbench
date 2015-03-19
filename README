@@ -15,6 +15,7 @@ Features:
   `sqldeleteinsert`, `xml`, `ods`, `html`, `json`
 * search in object source
 * search in table or views data
+* transactions straight out from VIM
 * fully customizable
 
 More details can be found here: https://github.com/cosminadrianpopescu/vim-sql-workbench
