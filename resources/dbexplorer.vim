@@ -1,6 +1,6 @@
 let sw_columns = {'title': 'Columns', 'shortcut': 'C', 'command': 'desc %object%;'}
 
-let sw_sql_source = {'title': 'SQL Source', 'shortcut': 'S', 'command': 'WbGrepSource -searchValues="%object%" -objects=%object% -types=* -useRegex=true; -- AFTERcall sw#dbexplorer#fix_source_code()', 'skip_columns': [0, 1], 'hide_header': 1, 'filetype': 'sql'}
+let sw_sql_source = {'title': 'SQL Source', 'shortcut': 'S', 'command': 'WbGrepSource -searchValues="%object%" -objects=%object% -types=* -useRegex=false; -- AFTERcall sw#dbexplorer#fix_source_code()', 'skip_columns': [0, 1], 'hide_header': 1, 'filetype': 'sql'}
 
 let sw_data = {'title': 'Data', 'shortcut': 'D', 'command': 'select * from %object%;'}
 
