@@ -13,6 +13,8 @@ Improvements
 * add a message after finishing a command *DONE*
 * autocomplete for wbconnect *DONE*
 * autocomplete with grammars
+* make it work with build 117 *DONE*
+* some profiling
 
 Bugs
 ----------------------------------------
