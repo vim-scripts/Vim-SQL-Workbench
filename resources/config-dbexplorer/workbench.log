@@ -1,0 +1,199 @@
+2015-10-28 20:58:07 INFO  =================== Log started =================== 
+2015-10-28 20:58:07 INFO  Using configdir: /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer 
+2015-10-28 20:58:07 INFO  Setting default locale to: en 
+2015-10-28 20:58:07 INFO  Starting SQL Workbench/J, Build 118 (2015-08-16 18:39) 
+2015-10-28 20:58:07 INFO  Java version=1.7.0_79, java.home=/usr/lib/jvm/java-7-openjdk/jre, vendor=Oracle Corporation, name=OpenJDK 64-Bit Server VM 
+2015-10-28 20:58:07 INFO  Operating System=Linux, version=4.0.5-1-ARCH, platform=amd64 
+2015-10-28 20:58:07 INFO  Available memory: 455MB 
+2015-10-28 20:58:08 INFO  Installed signal handler for INT 
+2015-10-28 20:58:08 INFO  could not register signal handler for: QUIT Signal already used by VM or OS: SIGQUIT
+java.lang.IllegalArgumentException: Signal already used by VM or OS: SIGQUIT
+	at sun.misc.Signal.handle(Signal.java:166)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:752)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:112)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:649)
+	at workbench.console.SQLConsole.main(SQLConsole.java:643)
+
+2015-10-28 20:58:08 WARN  Unknown parameter(s): -profilestorage 
+2015-10-28 20:58:08 INFO  SQL Workbench/J Console interface started 
+2015-10-28 20:58:32 INFO  Saved statement history to /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer/sqlworkbench_history.txt 
+2015-10-28 20:58:32 INFO  Stopping SQL Workbench/J, Build 118 
+2015-10-28 20:58:32 INFO  =================== Log stopped =================== 
+2015-10-28 21:06:46 INFO  =================== Log started =================== 
+2015-10-28 21:06:46 INFO  Using configdir: /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer 
+2015-10-28 21:06:46 INFO  Setting default locale to: en 
+2015-10-28 21:06:46 INFO  Starting SQL Workbench/J, Build 118.3 (2015-10-11 17:11) 
+2015-10-28 21:06:46 INFO  Java version=1.8.0_65, java.home=/usr/lib/jvm/java-8-openjdk/jre, vendor=Oracle Corporation, name=OpenJDK 64-Bit Server VM 
+2015-10-28 21:06:46 INFO  Operating System=Linux, version=4.0.5-1-ARCH, platform=amd64 
+2015-10-28 21:06:46 INFO  Available memory: 910MB 
+2015-10-28 21:06:46 INFO  Installed signal handler for INT 
+2015-10-28 21:06:46 INFO  could not register signal handler for: QUIT Signal already used by VM or OS: SIGQUIT
+java.lang.IllegalArgumentException: Signal already used by VM or OS: SIGQUIT
+	at sun.misc.Signal.handle(Signal.java:166)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:751)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:112)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:648)
+	at workbench.console.SQLConsole.main(SQLConsole.java:642)
+
+2015-10-28 21:06:46 INFO  SQL Workbench/J Console interface started 
+2015-10-28 21:06:46 INFO  Loaded statement history from /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer/sqlworkbench_history.txt 
+2015-10-28 21:06:50 INFO  Loading connection profiles from /home/lixa/.sqlworkbench 
+2015-10-28 21:06:50 ERROR Error when reading connection profiles from /home/lixa/.sqlworkbench /home/lixa/.sqlworkbench (Is a directory)
+java.io.FileNotFoundException: /home/lixa/.sqlworkbench (Is a directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at workbench.util.WbPersistence.readObject(WbPersistence.java:87)
+	at workbench.db.XmlProfileStorage.readProfiles(XmlProfileStorage.java:48)
+	at workbench.db.ConnectionMgr.readProfiles(ConnectionMgr.java:886)
+	at workbench.db.ConnectionMgr.getProfiles(ConnectionMgr.java:536)
+	at workbench.sql.wbcommands.console.WbListProfiles.execute(WbListProfiles.java:93)
+	at workbench.sql.StatementRunner.runStatement(StatementRunner.java:556)
+	at workbench.sql.BatchRunner.executeScript(BatchRunner.java:851)
+	at workbench.sql.BatchRunner.runScript(BatchRunner.java:780)
+	at workbench.console.SQLConsole.startConsole(SQLConsole.java:226)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:650)
+	at workbench.console.SQLConsole.main(SQLConsole.java:642)
+
+2015-10-28 21:07:17 INFO  Saved statement history to /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer/sqlworkbench_history.txt 
+2015-10-28 21:07:17 INFO  Stopping SQL Workbench/J, Build 118.3 
+2015-10-28 21:07:17 INFO  =================== Log stopped =================== 
+2015-10-28 21:07:27 INFO  =================== Log started =================== 
+2015-10-28 21:07:27 INFO  Using configdir: /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer 
+2015-10-28 21:07:27 INFO  Setting default locale to: en 
+2015-10-28 21:07:27 INFO  Starting SQL Workbench/J, Build 118.3 (2015-10-11 17:11) 
+2015-10-28 21:07:27 INFO  Java version=1.8.0_65, java.home=/usr/lib/jvm/java-8-openjdk/jre, vendor=Oracle Corporation, name=OpenJDK 64-Bit Server VM 
+2015-10-28 21:07:27 INFO  Operating System=Linux, version=4.0.5-1-ARCH, platform=amd64 
+2015-10-28 21:07:27 INFO  Available memory: 910MB 
+2015-10-28 21:07:27 INFO  Installed signal handler for INT 
+2015-10-28 21:07:27 INFO  could not register signal handler for: QUIT Signal already used by VM or OS: SIGQUIT
+java.lang.IllegalArgumentException: Signal already used by VM or OS: SIGQUIT
+	at sun.misc.Signal.handle(Signal.java:166)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:751)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:112)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:648)
+	at workbench.console.SQLConsole.main(SQLConsole.java:642)
+
+2015-10-28 21:07:27 INFO  SQL Workbench/J Console interface started 
+2015-10-28 21:07:27 INFO  Loaded statement history from /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer/sqlworkbench_history.txt 
+2015-10-28 21:07:31 INFO  Loading connection profiles from /home/lixa/.sqlworkbench/WbProfiles.xml 
+2015-10-28 21:07:38 INFO  Saved statement history to /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer/sqlworkbench_history.txt 
+2015-10-28 21:07:38 INFO  Stopping SQL Workbench/J, Build 118.3 
+2015-10-28 21:07:38 INFO  =================== Log stopped =================== 
+2015-10-28 21:08:28 INFO  =================== Log started =================== 
+2015-10-28 21:08:28 INFO  Using configdir: /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer 
+2015-10-28 21:08:28 INFO  Setting default locale to: en 
+2015-10-28 21:08:28 INFO  Starting SQL Workbench/J, Build 118.3 (2015-10-11 17:11) 
+2015-10-28 21:08:28 INFO  Java version=1.8.0_65, java.home=/usr/lib/jvm/java-8-openjdk/jre, vendor=Oracle Corporation, name=OpenJDK 64-Bit Server VM 
+2015-10-28 21:08:28 INFO  Operating System=Linux, version=4.0.5-1-ARCH, platform=amd64 
+2015-10-28 21:08:28 INFO  Available memory: 910MB 
+2015-10-28 21:08:28 INFO  Installed signal handler for INT 
+2015-10-28 21:08:28 INFO  could not register signal handler for: QUIT Signal already used by VM or OS: SIGQUIT
+java.lang.IllegalArgumentException: Signal already used by VM or OS: SIGQUIT
+	at sun.misc.Signal.handle(Signal.java:166)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:751)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:112)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:648)
+	at workbench.console.SQLConsole.main(SQLConsole.java:642)
+
+2015-10-28 21:08:28 INFO  SQL Workbench/J Console interface started 
+2015-10-28 21:08:28 INFO  Loaded statement history from /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer/sqlworkbench_history.txt 
+2015-10-28 21:08:30 INFO  Saved statement history to /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer/sqlworkbench_history.txt 
+2015-10-28 21:08:30 INFO  Stopping SQL Workbench/J, Build 118.3 
+2015-10-28 21:08:30 INFO  =================== Log stopped =================== 
+2015-10-28 21:08:34 INFO  =================== Log started =================== 
+2015-10-28 21:08:34 INFO  Using configdir: /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer 
+2015-10-28 21:08:34 INFO  Setting default locale to: en 
+2015-10-28 21:08:34 INFO  Starting SQL Workbench/J, Build 118 (2015-08-16 18:39) 
+2015-10-28 21:08:34 INFO  Java version=1.8.0_65, java.home=/usr/lib/jvm/java-8-openjdk/jre, vendor=Oracle Corporation, name=OpenJDK 64-Bit Server VM 
+2015-10-28 21:08:34 INFO  Operating System=Linux, version=4.0.5-1-ARCH, platform=amd64 
+2015-10-28 21:08:34 INFO  Available memory: 455MB 
+2015-10-28 21:08:34 INFO  Installed signal handler for INT 
+2015-10-28 21:08:34 INFO  could not register signal handler for: QUIT Signal already used by VM or OS: SIGQUIT
+java.lang.IllegalArgumentException: Signal already used by VM or OS: SIGQUIT
+	at sun.misc.Signal.handle(Signal.java:166)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:752)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:112)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:649)
+	at workbench.console.SQLConsole.main(SQLConsole.java:643)
+
+2015-10-28 21:08:34 INFO  SQL Workbench/J Console interface started 
+2015-10-28 21:08:34 INFO  Loaded statement history from /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer/sqlworkbench_history.txt 
+2015-10-28 21:09:09 INFO  Saved statement history to /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer/sqlworkbench_history.txt 
+2015-10-28 21:09:09 INFO  Stopping SQL Workbench/J, Build 118 
+2015-10-28 21:09:09 INFO  =================== Log stopped =================== 
+2015-10-28 21:09:14 INFO  =================== Log started =================== 
+2015-10-28 21:09:14 INFO  Using configdir: /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer 
+2015-10-28 21:09:14 INFO  Setting default locale to: en 
+2015-10-28 21:09:14 INFO  Starting SQL Workbench/J, Build 118.3 (2015-10-11 17:11) 
+2015-10-28 21:09:14 INFO  Java version=1.8.0_65, java.home=/usr/lib/jvm/java-8-openjdk/jre, vendor=Oracle Corporation, name=OpenJDK 64-Bit Server VM 
+2015-10-28 21:09:14 INFO  Operating System=Linux, version=4.0.5-1-ARCH, platform=amd64 
+2015-10-28 21:09:14 INFO  Available memory: 910MB 
+2015-10-28 21:09:14 INFO  Installed signal handler for INT 
+2015-10-28 21:09:14 INFO  could not register signal handler for: QUIT Signal already used by VM or OS: SIGQUIT
+java.lang.IllegalArgumentException: Signal already used by VM or OS: SIGQUIT
+	at sun.misc.Signal.handle(Signal.java:166)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:751)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:112)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:648)
+	at workbench.console.SQLConsole.main(SQLConsole.java:642)
+
+2015-10-28 21:09:14 INFO  SQL Workbench/J Console interface started 
+2015-10-28 21:09:14 INFO  Loaded statement history from /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer/sqlworkbench_history.txt 
+2015-10-28 21:09:28 INFO  Loading connection profiles from /home/lixa/.sqlworkbench/WbProfiles.xml 
+2015-10-28 21:09:29 INFO  Saved statement history to /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer/sqlworkbench_history.txt 
+2015-10-28 21:09:29 INFO  Stopping SQL Workbench/J, Build 118.3 
+2015-10-28 21:09:29 INFO  =================== Log stopped =================== 
+2015-10-28 21:09:48 INFO  =================== Log started =================== 
+2015-10-28 21:09:48 INFO  Using configdir: /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer 
+2015-10-28 21:09:48 INFO  Setting default locale to: en 
+2015-10-28 21:09:48 INFO  Starting SQL Workbench/J, Build 118 (2015-08-16 18:39) 
+2015-10-28 21:09:48 INFO  Java version=1.8.0_65, java.home=/usr/lib/jvm/java-8-openjdk/jre, vendor=Oracle Corporation, name=OpenJDK 64-Bit Server VM 
+2015-10-28 21:09:48 INFO  Operating System=Linux, version=4.0.5-1-ARCH, platform=amd64 
+2015-10-28 21:09:48 INFO  Available memory: 455MB 
+2015-10-28 21:09:48 INFO  Installed signal handler for INT 
+2015-10-28 21:09:48 INFO  could not register signal handler for: QUIT Signal already used by VM or OS: SIGQUIT
+java.lang.IllegalArgumentException: Signal already used by VM or OS: SIGQUIT
+	at sun.misc.Signal.handle(Signal.java:166)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:752)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:112)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:649)
+	at workbench.console.SQLConsole.main(SQLConsole.java:643)
+
+2015-10-28 21:09:48 INFO  SQL Workbench/J Console interface started 
+2015-10-28 21:09:48 INFO  Loaded statement history from /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer/sqlworkbench_history.txt 
+2015-10-28 21:10:01 ERROR Error executing statement wbset workbench.settings.profilestorage=/home/lixa/.sqlworkbench/WbProfiles.xml
+ Cannot execute command 'wbset' without a connection!
+workbench.sql.StatementRunner$1: Cannot execute wbset without a connection
+	at workbench.sql.StatementRunner.runStatement(StatementRunner.java:468)
+	at workbench.sql.BatchRunner.executeScript(BatchRunner.java:838)
+	at workbench.sql.BatchRunner.runScript(BatchRunner.java:769)
+	at workbench.console.SQLConsole.startConsole(SQLConsole.java:226)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:651)
+	at workbench.console.SQLConsole.main(SQLConsole.java:643)
+
+2015-10-28 21:12:12 INFO  Saved statement history to /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer/sqlworkbench_history.txt 
+2015-10-28 21:12:12 INFO  Stopping SQL Workbench/J, Build 118 
+2015-10-28 21:12:12 INFO  =================== Log stopped =================== 
+2015-10-28 21:13:27 INFO  =================== Log started =================== 
+2015-10-28 21:13:27 INFO  Using configdir: /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer 
+2015-10-28 21:13:27 INFO  Setting default locale to: en 
+2015-10-28 21:13:27 INFO  Starting SQL Workbench/J, Build 118 (2015-08-16 18:39) 
+2015-10-28 21:13:27 INFO  Java version=1.8.0_65, java.home=/usr/lib/jvm/java-8-openjdk/jre, vendor=Oracle Corporation, name=OpenJDK 64-Bit Server VM 
+2015-10-28 21:13:27 INFO  Operating System=Linux, version=4.0.5-1-ARCH, platform=amd64 
+2015-10-28 21:13:27 INFO  Available memory: 455MB 
+2015-10-28 21:13:27 INFO  Installed signal handler for INT 
+2015-10-28 21:13:27 INFO  could not register signal handler for: QUIT Signal already used by VM or OS: SIGQUIT
+java.lang.IllegalArgumentException: Signal already used by VM or OS: SIGQUIT
+	at sun.misc.Signal.handle(Signal.java:166)
+	at workbench.console.SQLConsole.installSignalHandler(SQLConsole.java:752)
+	at workbench.console.SQLConsole.<init>(SQLConsole.java:112)
+	at workbench.console.SQLConsole.runConsole(SQLConsole.java:649)
+	at workbench.console.SQLConsole.main(SQLConsole.java:643)
+
+2015-10-28 21:13:27 INFO  SQL Workbench/J Console interface started 
+2015-10-28 21:13:27 INFO  Loaded statement history from /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer/sqlworkbench_history.txt 
+2015-10-28 21:13:34 INFO  Saved statement history to /home/lixa/.dotfiles/vim/bundle/vim-sql-workbench/resources/config-dbexplorer/sqlworkbench_history.txt 
+2015-10-28 21:13:34 INFO  Stopping SQL Workbench/J, Build 118 
+2015-10-28 21:13:34 INFO  =================== Log stopped =================== 

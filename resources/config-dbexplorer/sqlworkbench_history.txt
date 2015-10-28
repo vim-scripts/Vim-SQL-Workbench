@@ -1,0 +1,4 @@
+wblistprofiles\n;
+wblistprofiles;
+wbset workbench.settings.profilestorage=/home/lixa/.sqlworkbench/WbProfiles.xml\n;
+wblistprofiles;
